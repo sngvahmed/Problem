@@ -1,6 +1,15 @@
-19:19:14 **** Incremental Build of configuration Debug for project C++ ****
+20:04:02 **** Incremental Build of configuration Debug for project C++ ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../src/codeforces until work.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/codeforces until work.d" -MT"src/codeforces\ until\ work.d" -o "src/codeforces until work.o" "../src/codeforces until work.cpp"
+Finished building: ../src/codeforces until work.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/codeforces\ until\ work.o   
+Finished building target: C++
+ 
 
-19:19:15 Build Finished (took 72ms)
+20:04:03 Build Finished (took 570ms)
 
