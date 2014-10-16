@@ -1,0 +1,133 @@
+11:29:01 **** Build of configuration Debug for project c++ ****
+make all 
+Building file: ../src/c++.cpp
+/bin/sh: 1: g++: not found
+Invoking: GCC C++ Compiler
+make: *** [src/c++.o] Error 127
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c++.d" -MT"src/c++.d" -o "src/c++.o" "../src/c++.cpp"
+11:29:02 **** Build of configuration Default for project solving problem ****
+make all 
+make: *** No rule to make target `all'.  Stop.
+11:29:09 **** Incremental Build of configuration Debug for project c++ ****
+make all 
+Building file: ../src/c++.cpp
+/bin/sh: 1: g++: not found
+Invoking: GCC C++ Compiler
+make: *** [src/c++.o] Error 127
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c++.d" -MT"src/c++.d" -o "src/c++.o" "../src/c++.cpp"
+11:29:09 **** Incremental Build of configuration Default for project solving problem ****
+make all 
+make: *** No rule to make target `all'.  Stop.
+11:29:14 **** Incremental Build of configuration Debug for project c++ ****
+make all 
+Building file: ../src/c++.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c++.d" -MT"src/c++.d" -o "src/c++.o" "../src/c++.cpp"
+/bin/sh: 1: g++: not found
+make: *** [src/c++.o] Error 127
+11:29:14 **** Incremental Build of configuration Default for project solving problem ****
+make all 
+make: *** No rule to make target `all'.  Stop.
+18:44:42 **** Incremental Build of configuration Debug for project c++ ****
+make all 
+Building file: ../src/c++.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c++.d" -MT"src/c++.d" -o "src/c++.o" "../src/c++.cpp"
+Finished building: ../src/c++.cpp
+ 
+Building target: c++
+Invoking: GCC C++ Linker
+g++  -o "c++"  ./src/c++.o   
+Finished building target: c++
+ 
+18:44:44 **** Incremental Build of configuration Default for project solving problem ****
+make all 
+make: *** No rule to make target `all'.  Stop.
+18:45:02 **** Incremental Build of configuration Debug for project c++ ****
+make all 
+Building file: ../src/c++.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c++.d" -MT"src/c++.d" -o "src/c++.o" "../src/c++.cpp"
+Finished building: ../src/c++.cpp
+ 
+Building target: c++
+Invoking: GCC C++ Linker
+g++  -o "c++"  ./src/c++.o   
+Finished building target: c++
+ 
+18:47:23 **** Incremental Build of configuration Debug for project c++ ****
+make all 
+Building file: ../src/c++.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c++.d" -MT"src/c++.d" -o "src/c++.o" "../src/c++.cpp"
+Finished building: ../src/c++.cpp
+ 
+Building target: c++
+Invoking: GCC C++ Linker
+g++  -o "c++"  ./src/c++.o   
+Finished building target: c++
+ 
+18:50:26 **** Incremental Build of configuration Debug for project c++ ****
+make all 
+make: Nothing to be done for `all'.
+18:50:29 **** Incremental Build of configuration Debug for project c++ ****
+make all 
+make: Nothing to be done for `all'.
+18:53:06 **** Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/C++.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/C++.d" -MT"src/C++.d" -o "src/C++.o" "../src/C++.cpp"
+Finished building: ../src/C++.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/C++.o   
+Finished building target: C++
+ 
+18:54:58 **** Clean-only build of configuration Debug for project C++ ****
+make clean 
+rm -rf  ./src/C++.o  ./src/C++.d  C++
+ 
+18:55:13 **** Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/C++.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/C++.d" -MT"src/C++.d" -o "src/C++.o" "../src/C++.cpp"
+Finished building: ../src/C++.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/C++.o   
+Finished building target: C++
+ 
+18:55:18 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+18:56:32 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/C++.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/C++.d" -MT"src/C++.d" -o "src/C++.o" "../src/C++.cpp"
+Finished building: ../src/C++.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/C++.o   
+Finished building target: C++
+ 
+19:18:39 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/C++.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/C++.d" -MT"src/C++.d" -o "src/C++.o" "../src/C++.cpp"
+Finished building: ../src/C++.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/C++.o   
+Finished building target: C++
+ 
+19:19:14 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.

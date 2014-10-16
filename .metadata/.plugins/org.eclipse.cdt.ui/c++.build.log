@@ -1,0 +1,6 @@
+18:50:29 **** Incremental Build of configuration Debug for project c++ ****
+make all 
+make: Nothing to be done for `all'.
+
+18:50:29 Build Finished (took 62ms)
+
