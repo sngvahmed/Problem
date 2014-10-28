@@ -2,3 +2,359 @@
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ACM.o" "..\\src\\ACM.cpp" 
 g++ -o ACM.exe "src\\ACM.o" 
+11:38:51 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+..\src\tmp.cpp: In function 'int main()':
+..\src\tmp.cpp:18:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 2;
+      ^
+g++ -o ACM.exe "src\\tmp.o" "src\\ACM.o" 
+src\ACM.o: In function `main':
+C:\Users\ahmed\Problem\ACM\Debug/../src/ACM.cpp:12: multiple definition of `main'
+src\tmp.o:C:\Users\ahmed\Problem\ACM\Debug/../src/tmp.cpp:16: first defined here
+collect2.exe: error: ld returned 1 exit status
+11:39:12 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\tmp.o" 
+Info: Nothing to build for solving problem
+Info: Nothing to build for ACM
+11:39:35 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+..\src\tmp.cpp: In function 'int main()':
+..\src\tmp.cpp:19:11: error: expected primary-expression before 'unsigned'
+  cout << (unsigned int(1000000000000)) << endl;
+           ^
+..\src\tmp.cpp:19:11: error: expected ')' before 'unsigned'
+..\src\tmp.cpp:18:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 2;
+      ^
+11:39:43 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+..\src\tmp.cpp: In function 'int main()':
+..\src\tmp.cpp:19:11: error: expected primary-expression before 'unsigned'
+  cout << (unsigned int(1000000000000)) << endl;
+           ^
+..\src\tmp.cpp:19:11: error: expected ')' before 'unsigned'
+..\src\tmp.cpp:18:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 2;
+      ^
+Info: Nothing to build for solving problem
+11:40:03 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+..\src\tmp.cpp: In function 'int main()':
+..\src\tmp.cpp:19:11: error: expected primary-expression before 'long'
+  cout << (long long(1000000000000)) << endl;
+           ^
+..\src\tmp.cpp:19:11: error: expected ')' before 'long'
+..\src\tmp.cpp:18:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 2;
+      ^
+Info: Nothing to build for solving problem
+11:40:14 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+..\src\tmp.cpp: In function 'int main()':
+..\src\tmp.cpp:19:11: error: expected primary-expression before 'long'
+  cout << (long long(1000000000000)) << endl;
+           ^
+..\src\tmp.cpp:19:11: error: expected ')' before 'long'
+..\src\tmp.cpp:18:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 2;
+      ^
+Info: Nothing to build for solving problem
+11:40:29 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+..\src\tmp.cpp: In function 'int main()':
+..\src\tmp.cpp:18:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 2;
+      ^
+g++ -o ACM.exe "src\\tmp.o" 
+Info: Nothing to build for solving problem
+Info: Nothing to build for ACM
+12:12:51 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" 
+Info: Nothing to build for solving problem
+12:13:07 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" 
+12:14:18 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" 
+00:13:12 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" "src\\ACM.o" 
+src\ACM.o: In function `main':
+C:\Users\ahmed\Problem\ACM\Debug/../src/ACM.cpp:12: multiple definition of `main'
+src\tmp.o:C:\Users\ahmed\Problem\ACM\Debug/../src/tmp.cpp:15: first defined here
+collect2.exe: error: ld returned 1 exit status
+00:13:27 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\tmp.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+00:17:02 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+00:17:50 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" 
+00:18:30 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" 
+00:28:32 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Devu, the Dumb Guy.o" "..\\src\\Devu, the Dumb Guy.cpp" 
+..\src\Devu, the Dumb Guy.cpp: In function 'int main()':
+..\src\Devu, the Dumb Guy.cpp:18:20: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  unsigned int arr[n];
+                    ^
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" "src\\tmp.o" 
+src\tmp.o: In function `main':
+C:\Users\ahmed\Problem\ACM\Debug/../src/tmp.cpp:15: multiple definition of `main'
+src\Devu, the Dumb Guy.o:C:\Users\ahmed\Problem\ACM\Debug/../src/Devu, the Dumb Guy.cpp:15: first defined here
+collect2.exe: error: ld returned 1 exit status
+00:28:39 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" 
+00:28:46 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" 
+00:29:10 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Devu, the Dumb Guy.o" "..\\src\\Devu, the Dumb Guy.cpp" 
+..\src\Devu, the Dumb Guy.cpp: In function 'int main()':
+..\src\Devu, the Dumb Guy.cpp:18:20: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  unsigned int arr[n];
+                    ^
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+00:29:27 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Devu, the Dumb Guy.o" "..\\src\\Devu, the Dumb Guy.cpp" 
+..\src\Devu, the Dumb Guy.cpp: In function 'int main()':
+..\src\Devu, the Dumb Guy.cpp:18:17: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  long long arr[n];
+                 ^
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" 
+00:29:51 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Devu, the Dumb Guy.o" "..\\src\\Devu, the Dumb Guy.cpp" 
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" 
+00:30:03 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Devu, the Dumb Guy.o" "..\\src\\Devu, the Dumb Guy.cpp" 
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" 
+Info: Nothing to build for ACM
+02:34:51 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" "src\\Devu, the Dumb Guy.o" 
+src\Devu, the Dumb Guy.o: In function `ZNSt10_Iter_baseIPxLb0EE7_S_baseES0_':
+C:\Users\ahmed\Problem\ACM\Debug/../src/Devu, the Dumb Guy.cpp:15: multiple definition of `main'
+src\Counterexample.o:C:\Users\ahmed\Problem\ACM\Debug/../src/Counterexample.cpp:25: first defined here
+collect2.exe: error: ld returned 1 exit status
+02:35:04 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Counterexample.o" 
+Info: Nothing to build for ACM
+02:35:23 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" 
+Info: Nothing to build for ACM
+02:38:22 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+..\src\Counterexample.cpp: In function 'bool coprime(long long int, long long int, long long int)':
+..\src\Counterexample.cpp:27:12: error: a function-definition is not allowed here before '{' token
+ int main() {
+            ^
+..\src\Counterexample.cpp:40:1: error: expected '}' at end of input
+ }
+ ^
+..\src\Counterexample.cpp:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+02:39:14 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" 
+02:39:47 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" 
+02:40:05 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" 
+02:48:22 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" 
+03:04:07 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" 
+04:04:23 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" "src\\Counterexample.o" 
+src\Counterexample.o: In function `ZSt5__gcdIxET_S0_S0_':
+C:\Users\ahmed\Problem\ACM\Debug/../src/Counterexample.cpp:16: multiple definition of `main'
+src\Diverse Permutation.o:C:\Users\ahmed\Problem\ACM\Debug/../src/Diverse Permutation.cpp:16: first defined here
+collect2.exe: error: ld returned 1 exit status
+04:04:32 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+Info: Nothing to build for ACM
+04:05:01 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:05:50 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:06:08 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:08:09 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:09:00 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:09:12 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:10:54 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:13:23 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:13:47 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+04:15:00 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:15:20 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:15:36 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:15:55 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:18:19 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:18:41 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:19:17 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+..\src\Diverse Permutation.cpp: In function 'int main()':
+..\src\Diverse Permutation.cpp:28:7: warning: statement has no effect [-Wunused-value]
+    ini;
+       ^
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+Info: Nothing to build for ACM
+04:27:42 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:29:57 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:30:14 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+..\src\Diverse Permutation.cpp: In function 'int main()':
+..\src\Diverse Permutation.cpp:26:7: warning: statement has no effect [-Wunused-value]
+    ini;
+       ^
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:33:48 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:34:08 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:34:52 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:36:12 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:41:18 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:42:04 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+Info: Nothing to build for ACM
+05:10:37 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+05:10:48 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+05:11:33 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+05:19:59 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+05:23:57 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM

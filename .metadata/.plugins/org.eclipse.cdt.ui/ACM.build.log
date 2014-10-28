@@ -1,7 +1,1 @@
-21:54:26 **** Rebuild of configuration Debug for project ACM ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ACM.o" "..\\src\\ACM.cpp" 
-g++ -o ACM.exe "src\\ACM.o" 
-
-21:54:27 Build Finished (took 1s.729ms)
-
+Info: Nothing to build for ACM
