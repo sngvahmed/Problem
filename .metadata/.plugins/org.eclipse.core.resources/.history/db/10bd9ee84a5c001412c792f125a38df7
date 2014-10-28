@@ -1,0 +1,3 @@
+<ident_list> → identifier | identifier, <ident_list>
+
+<ident_list> → <identifier> { , <identifier>}

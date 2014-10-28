@@ -1,0 +1,11 @@
+<if_stmt> -> if(<expression>) <statement> | if(<expression>) <statement> else <statement
+----------------------------------------------------------------------------------------
+<ident_list> -> identifier | identifier, <ident_list>
+----------------------------------------------------------------------------------------
+<term> -> <term> * <factor> | <term> / <factor> | <term> % <factor>
+----------------------------------------------------------------------------------------
+
+
+<expr> -> <expr> + <term> | <expr> - <term> | <term>
+<term> -> <term> * <factor> | <term> / <factor> | <factor>
+<factor> -> <exp> ^ <factor> 

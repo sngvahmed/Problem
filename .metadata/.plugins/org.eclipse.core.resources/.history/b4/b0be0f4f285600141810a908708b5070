@@ -1,0 +1,22 @@
+#include "bits/stdc++.h"
+#include <functional>
+#include <ext/numeric> 
+using namespace std;
+
+#define SZ(x) (int)x.size()
+#define pb push_back
+#define mp make_pair
+#define F first
+#define S second
+#define all(x) x.begin(), x.end()
+#define rall(x) x.rbegin(), x.rend()
+#define MMS(x, v) memset(x, v, sizeof(x))
+
+typedef unsigned long long ull;
+
+int main() {
+//	freopen("test.in", "rt", stdin);
+	ull n1, n2, n3;
+	cin >> n1 >> n2 >> n3;
+	return 0;
+}

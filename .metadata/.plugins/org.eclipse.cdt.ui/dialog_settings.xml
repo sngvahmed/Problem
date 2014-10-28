@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="acm" key="LastUsedSourceTemplate"/>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
 	</section>
 	<section name="org.eclipse.cdt.internal.ui.preferences.EditTemplateDialog_dialogBounds">
@@ -8,6 +9,10 @@
 		<item value="275" key="DIALOG_HEIGHT"/>
 		<item value="60" key="DIALOG_X_ORIGIN"/>
 		<item value="190" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="CRenameRefactoringInputPage">
 	</section>
 	<section name="completion_proposal_size">
 	</section>
