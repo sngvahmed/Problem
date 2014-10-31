@@ -1,5 +1,14 @@
+<<<<<<< HEAD
+MatchingBrackets.color=255,207,187
+eclipse.preferences.version=1
+editors/options/Parameters.background=245,245,245
+editors/options/Parameters.foreground=88,88,88
+editors/options/Proposals.background=245,245,245
+editors/options/Proposals.foreground=88,88,88
+=======
 eclipse.preferences.version=1
 editors/options/Parameters.background=255,255,255
 editors/options/Parameters.foreground=0,0,0
 editors/options/Proposals.background=255,255,255
 editors/options/Proposals.foreground=0,0,0
+>>>>>>> 05ced47e2d7ea8a464e3cffb5e0caf61704f26fb

@@ -137,6 +137,364 @@ make: Nothing to be done for `all'.
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ACM.o" "..\\src\\ACM.cpp" 
 g++ -o ACM.exe "src\\ACM.o" 
+<<<<<<< HEAD
+11:38:51 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+..\src\tmp.cpp: In function 'int main()':
+..\src\tmp.cpp:18:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 2;
+      ^
+g++ -o ACM.exe "src\\tmp.o" "src\\ACM.o" 
+src\ACM.o: In function `main':
+C:\Users\ahmed\Problem\ACM\Debug/../src/ACM.cpp:12: multiple definition of `main'
+src\tmp.o:C:\Users\ahmed\Problem\ACM\Debug/../src/tmp.cpp:16: first defined here
+collect2.exe: error: ld returned 1 exit status
+11:39:12 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\tmp.o" 
+Info: Nothing to build for solving problem
+Info: Nothing to build for ACM
+11:39:35 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+..\src\tmp.cpp: In function 'int main()':
+..\src\tmp.cpp:19:11: error: expected primary-expression before 'unsigned'
+  cout << (unsigned int(1000000000000)) << endl;
+           ^
+..\src\tmp.cpp:19:11: error: expected ')' before 'unsigned'
+..\src\tmp.cpp:18:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 2;
+      ^
+11:39:43 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+..\src\tmp.cpp: In function 'int main()':
+..\src\tmp.cpp:19:11: error: expected primary-expression before 'unsigned'
+  cout << (unsigned int(1000000000000)) << endl;
+           ^
+..\src\tmp.cpp:19:11: error: expected ')' before 'unsigned'
+..\src\tmp.cpp:18:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 2;
+      ^
+Info: Nothing to build for solving problem
+11:40:03 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+..\src\tmp.cpp: In function 'int main()':
+..\src\tmp.cpp:19:11: error: expected primary-expression before 'long'
+  cout << (long long(1000000000000)) << endl;
+           ^
+..\src\tmp.cpp:19:11: error: expected ')' before 'long'
+..\src\tmp.cpp:18:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 2;
+      ^
+Info: Nothing to build for solving problem
+11:40:14 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+..\src\tmp.cpp: In function 'int main()':
+..\src\tmp.cpp:19:11: error: expected primary-expression before 'long'
+  cout << (long long(1000000000000)) << endl;
+           ^
+..\src\tmp.cpp:19:11: error: expected ')' before 'long'
+..\src\tmp.cpp:18:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 2;
+      ^
+Info: Nothing to build for solving problem
+11:40:29 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+..\src\tmp.cpp: In function 'int main()':
+..\src\tmp.cpp:18:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 2;
+      ^
+g++ -o ACM.exe "src\\tmp.o" 
+Info: Nothing to build for solving problem
+Info: Nothing to build for ACM
+12:12:51 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" 
+Info: Nothing to build for solving problem
+12:13:07 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" 
+12:14:18 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" 
+00:13:12 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" "src\\ACM.o" 
+src\ACM.o: In function `main':
+C:\Users\ahmed\Problem\ACM\Debug/../src/ACM.cpp:12: multiple definition of `main'
+src\tmp.o:C:\Users\ahmed\Problem\ACM\Debug/../src/tmp.cpp:15: first defined here
+collect2.exe: error: ld returned 1 exit status
+00:13:27 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\tmp.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+00:17:02 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+00:17:50 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" 
+00:18:30 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tmp.o" "..\\src\\tmp.cpp" 
+g++ -o ACM.exe "src\\tmp.o" 
+00:28:32 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Devu, the Dumb Guy.o" "..\\src\\Devu, the Dumb Guy.cpp" 
+..\src\Devu, the Dumb Guy.cpp: In function 'int main()':
+..\src\Devu, the Dumb Guy.cpp:18:20: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  unsigned int arr[n];
+                    ^
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" "src\\tmp.o" 
+src\tmp.o: In function `main':
+C:\Users\ahmed\Problem\ACM\Debug/../src/tmp.cpp:15: multiple definition of `main'
+src\Devu, the Dumb Guy.o:C:\Users\ahmed\Problem\ACM\Debug/../src/Devu, the Dumb Guy.cpp:15: first defined here
+collect2.exe: error: ld returned 1 exit status
+00:28:39 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" 
+00:28:46 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" 
+00:29:10 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Devu, the Dumb Guy.o" "..\\src\\Devu, the Dumb Guy.cpp" 
+..\src\Devu, the Dumb Guy.cpp: In function 'int main()':
+..\src\Devu, the Dumb Guy.cpp:18:20: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  unsigned int arr[n];
+                    ^
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+00:29:27 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Devu, the Dumb Guy.o" "..\\src\\Devu, the Dumb Guy.cpp" 
+..\src\Devu, the Dumb Guy.cpp: In function 'int main()':
+..\src\Devu, the Dumb Guy.cpp:18:17: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  long long arr[n];
+                 ^
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" 
+00:29:51 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Devu, the Dumb Guy.o" "..\\src\\Devu, the Dumb Guy.cpp" 
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" 
+00:30:03 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Devu, the Dumb Guy.o" "..\\src\\Devu, the Dumb Guy.cpp" 
+g++ -o ACM.exe "src\\Devu, the Dumb Guy.o" 
+Info: Nothing to build for ACM
+02:34:51 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" "src\\Devu, the Dumb Guy.o" 
+src\Devu, the Dumb Guy.o: In function `ZNSt10_Iter_baseIPxLb0EE7_S_baseES0_':
+C:\Users\ahmed\Problem\ACM\Debug/../src/Devu, the Dumb Guy.cpp:15: multiple definition of `main'
+src\Counterexample.o:C:\Users\ahmed\Problem\ACM\Debug/../src/Counterexample.cpp:25: first defined here
+collect2.exe: error: ld returned 1 exit status
+02:35:04 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Counterexample.o" 
+Info: Nothing to build for ACM
+02:35:23 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" 
+Info: Nothing to build for ACM
+02:38:22 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+..\src\Counterexample.cpp: In function 'bool coprime(long long int, long long int, long long int)':
+..\src\Counterexample.cpp:27:12: error: a function-definition is not allowed here before '{' token
+ int main() {
+            ^
+..\src\Counterexample.cpp:40:1: error: expected '}' at end of input
+ }
+ ^
+..\src\Counterexample.cpp:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+02:39:14 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" 
+02:39:47 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" 
+02:40:05 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" 
+02:48:22 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" 
+03:04:07 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Counterexample.o" "..\\src\\Counterexample.cpp" 
+g++ -o ACM.exe "src\\Counterexample.o" 
+04:04:23 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" "src\\Counterexample.o" 
+src\Counterexample.o: In function `ZSt5__gcdIxET_S0_S0_':
+C:\Users\ahmed\Problem\ACM\Debug/../src/Counterexample.cpp:16: multiple definition of `main'
+src\Diverse Permutation.o:C:\Users\ahmed\Problem\ACM\Debug/../src/Diverse Permutation.cpp:16: first defined here
+collect2.exe: error: ld returned 1 exit status
+04:04:32 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+Info: Nothing to build for ACM
+04:05:01 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:05:50 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:06:08 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:08:09 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:09:00 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:09:12 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:10:54 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:13:23 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:13:47 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+04:15:00 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:15:20 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:15:36 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:15:55 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:18:19 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:18:41 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:19:17 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+..\src\Diverse Permutation.cpp: In function 'int main()':
+..\src\Diverse Permutation.cpp:28:7: warning: statement has no effect [-Wunused-value]
+    ini;
+       ^
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+Info: Nothing to build for ACM
+04:27:42 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:29:57 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:30:14 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+..\src\Diverse Permutation.cpp: In function 'int main()':
+..\src\Diverse Permutation.cpp:26:7: warning: statement has no effect [-Wunused-value]
+    ini;
+       ^
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:33:48 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:34:08 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:34:52 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:36:12 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:41:18 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+04:42:04 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+Info: Nothing to build for ACM
+05:10:37 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+05:10:48 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+05:11:33 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+05:19:59 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+05:23:57 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+=======
 >>>>>>> 7516b910eb9d1d5dcd182615057c49846da7ebb6
 19:55:07 **** Build of configuration Debug for project C++ ****
 make all 
@@ -7770,6 +8128,638 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src
 ../src/Genetic_lab1.cpp:32:6: warning: unused variable ‘lw’ [-Wunused-variable]
   int lw = 0, up = upper - lower;
       ^
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+>>>>>>> 05ced47e2d7ea8a464e3cffb5e0caf61704f26fb
+00:19:05 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Diverse Permutation.o" "..\\src\\Diverse Permutation.cpp" 
+g++ -o ACM.exe "src\\Diverse Permutation.o" "src\\Devu, the Dumb Guy.o" 
+g++: error: src\Devu, the Dumb Guy.o: No such file or directory
+00:19:21 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Diverse Permutation.o" 
+00:38:26 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: At global scope:
+..\src\Genetic_lab1.cpp:91:1: error: expected unqualified-id before numeric constant
+ 111011 110011
+ ^
+00:38:33 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'std::pair<int, int> crossOver(int, int)':
+..\src\Genetic_lab1.cpp:93:54: error: no matching function for call to 'std::basic_string<char>::substr(std::basic_string<char>::iterator, int)'
+  string sub1 = num1.substr(num1.begin(), SZ(num1) / 2);
+                                                      ^
+..\src\Genetic_lab1.cpp:93:54: note: candidate is:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bitset:47,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:65,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note: std::basic_string<_CharT, _Traits, _Alloc> std::basic_string<_CharT, _Traits, _Alloc>::substr(std::basic_string<_CharT, _Traits, _Alloc>::size_type, std::basic_string<_CharT, _Traits, _Alloc>::size_type) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::basic_string<_CharT, _Traits, _Alloc>::size_type = unsigned int]
+       substr(size_type __pos = 0, size_type __n = npos) const
+       ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note:   no known conversion for argument 1 from 'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' to 'std::basic_string<char>::size_type {aka unsigned int}'
+..\src\Genetic_lab1.cpp:94:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+00:38:47 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'std::pair<int, int> crossOver(int, int)':
+..\src\Genetic_lab1.cpp:93:54: error: no matching function for call to 'std::basic_string<char>::substr(std::basic_string<char>::iterator, int)'
+  string sub1 = num1.substr(num1.begin(), SZ(num1) / 2);
+                                                      ^
+..\src\Genetic_lab1.cpp:93:54: note: candidate is:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bitset:47,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:65,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note: std::basic_string<_CharT, _Traits, _Alloc> std::basic_string<_CharT, _Traits, _Alloc>::substr(std::basic_string<_CharT, _Traits, _Alloc>::size_type, std::basic_string<_CharT, _Traits, _Alloc>::size_type) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::basic_string<_CharT, _Traits, _Alloc>::size_type = unsigned int]
+       substr(size_type __pos = 0, size_type __n = npos) const
+       ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note:   no known conversion for argument 1 from 'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' to 'std::basic_string<char>::size_type {aka unsigned int}'
+..\src\Genetic_lab1.cpp:94:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+00:38:55 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'std::pair<int, int> crossOver(int, int)':
+..\src\Genetic_lab1.cpp:93:69: error: no matching function for call to 'std::basic_string<char>::substr(std::basic_string<char>::iterator, __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >)'
+  string sub1 = num1.substr(num1.begin(), num1.begin() + SZ(num1) / 2);
+                                                                     ^
+..\src\Genetic_lab1.cpp:93:69: note: candidate is:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bitset:47,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:65,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note: std::basic_string<_CharT, _Traits, _Alloc> std::basic_string<_CharT, _Traits, _Alloc>::substr(std::basic_string<_CharT, _Traits, _Alloc>::size_type, std::basic_string<_CharT, _Traits, _Alloc>::size_type) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::basic_string<_CharT, _Traits, _Alloc>::size_type = unsigned int]
+       substr(size_type __pos = 0, size_type __n = npos) const
+       ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note:   no known conversion for argument 1 from 'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' to 'std::basic_string<char>::size_type {aka unsigned int}'
+..\src\Genetic_lab1.cpp:94:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+00:39:03 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'std::pair<int, int> crossOver(int, int)':
+..\src\Genetic_lab1.cpp:93:71: error: no matching function for call to 'std::basic_string<char>::substr(std::basic_string<char>::iterator, __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >)'
+  string sub1 = num1.substr(num1.begin(), num1.begin() + (SZ(num1) / 2));
+                                                                       ^
+..\src\Genetic_lab1.cpp:93:71: note: candidate is:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bitset:47,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:65,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note: std::basic_string<_CharT, _Traits, _Alloc> std::basic_string<_CharT, _Traits, _Alloc>::substr(std::basic_string<_CharT, _Traits, _Alloc>::size_type, std::basic_string<_CharT, _Traits, _Alloc>::size_type) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::basic_string<_CharT, _Traits, _Alloc>::size_type = unsigned int]
+       substr(size_type __pos = 0, size_type __n = npos) const
+       ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note:   no known conversion for argument 1 from 'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' to 'std::basic_string<char>::size_type {aka unsigned int}'
+..\src\Genetic_lab1.cpp:94:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+00:40:13 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'std::pair<int, int> crossOver(int, int)':
+..\src\Genetic_lab1.cpp:93:57: error: no matching function for call to 'std::basic_string<char>::substr(__gnu_cxx::__normal_iterator<char*, std::basic_string<char> >)'
+  string sub1 = num1.substr(num1.begin() + (SZ(num1) / 2));
+                                                         ^
+..\src\Genetic_lab1.cpp:93:57: note: candidate is:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bitset:47,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:65,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note: std::basic_string<_CharT, _Traits, _Alloc> std::basic_string<_CharT, _Traits, _Alloc>::substr(std::basic_string<_CharT, _Traits, _Alloc>::size_type, std::basic_string<_CharT, _Traits, _Alloc>::size_type) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::basic_string<_CharT, _Traits, _Alloc>::size_type = unsigned int]
+       substr(size_type __pos = 0, size_type __n = npos) const
+       ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note:   no known conversion for argument 1 from '__gnu_cxx::__normal_iterator<char*, std::basic_string<char> >' to 'std::basic_string<char>::size_type {aka unsigned int}'
+..\src\Genetic_lab1.cpp:94:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+00:46:14 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'std::pair<int, int> crossOver(int, int)':
+..\src\Genetic_lab1.cpp:95:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'int main()':
+..\src\Genetic_lab1.cpp:103:17: warning: variable 'parentIndex' set but not used [-Wunused-but-set-variable]
+  pair<int, int> parentIndex = getParent();
+                 ^
+g++ -o ACM.exe "src\\Genetic_lab1.o" 
+00:46:25 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'std::pair<int, int> crossOver(int, int)':
+..\src\Genetic_lab1.cpp:94:50: error: no matching function for call to 'std::basic_string<char>::substr(__gnu_cxx::__normal_iterator<char*, std::basic_string<char> >)'
+  sub1 = num1.substr(num1.begin() + (SZ(num1) / 2))
+                                                  ^
+..\src\Genetic_lab1.cpp:94:50: note: candidate is:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bitset:47,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:65,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note: std::basic_string<_CharT, _Traits, _Alloc> std::basic_string<_CharT, _Traits, _Alloc>::substr(std::basic_string<_CharT, _Traits, _Alloc>::size_type, std::basic_string<_CharT, _Traits, _Alloc>::size_type) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::basic_string<_CharT, _Traits, _Alloc>::size_type = unsigned int]
+       substr(size_type __pos = 0, size_type __n = npos) const
+       ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note:   no known conversion for argument 1 from '__gnu_cxx::__normal_iterator<char*, std::basic_string<char> >' to 'std::basic_string<char>::size_type {aka unsigned int}'
+..\src\Genetic_lab1.cpp:95:1: error: expected ';' before '}' token
+ }
+ ^
+..\src\Genetic_lab1.cpp:95:1: warning: no return statement in function returning non-void [-Wreturn-type]
+00:46:28 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'std::pair<int, int> crossOver(int, int)':
+..\src\Genetic_lab1.cpp:94:50: error: no matching function for call to 'std::basic_string<char>::substr(__gnu_cxx::__normal_iterator<char*, std::basic_string<char> >)'
+  sub1 = num1.substr(num1.begin() + (SZ(num1) / 2))
+                                                  ^
+..\src\Genetic_lab1.cpp:94:50: note: candidate is:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bitset:47,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:65,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note: std::basic_string<_CharT, _Traits, _Alloc> std::basic_string<_CharT, _Traits, _Alloc>::substr(std::basic_string<_CharT, _Traits, _Alloc>::size_type, std::basic_string<_CharT, _Traits, _Alloc>::size_type) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::basic_string<_CharT, _Traits, _Alloc>::size_type = unsigned int]
+       substr(size_type __pos = 0, size_type __n = npos) const
+       ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note:   no known conversion for argument 1 from '__gnu_cxx::__normal_iterator<char*, std::basic_string<char> >' to 'std::basic_string<char>::size_type {aka unsigned int}'
+..\src\Genetic_lab1.cpp:95:1: error: expected ';' before '}' token
+ }
+ ^
+..\src\Genetic_lab1.cpp:95:1: warning: no return statement in function returning non-void [-Wreturn-type]
+00:46:31 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'std::pair<int, int> crossOver(int, int)':
+..\src\Genetic_lab1.cpp:94:50: error: no matching function for call to 'std::basic_string<char>::substr(__gnu_cxx::__normal_iterator<char*, std::basic_string<char> >)'
+  sub1 = num1.substr(num1.begin() + (SZ(num1) / 2));
+                                                  ^
+..\src\Genetic_lab1.cpp:94:50: note: candidate is:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bitset:47,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:65,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note: std::basic_string<_CharT, _Traits, _Alloc> std::basic_string<_CharT, _Traits, _Alloc>::substr(std::basic_string<_CharT, _Traits, _Alloc>::size_type, std::basic_string<_CharT, _Traits, _Alloc>::size_type) const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::basic_string<_CharT, _Traits, _Alloc>::size_type = unsigned int]
+       substr(size_type __pos = 0, size_type __n = npos) const
+       ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2206:7: note:   no known conversion for argument 1 from '__gnu_cxx::__normal_iterator<char*, std::basic_string<char> >' to 'std::basic_string<char>::size_type {aka unsigned int}'
+..\src\Genetic_lab1.cpp:95:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+00:47:06 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'std::pair<int, int> crossOver(int, int)':
+..\src\Genetic_lab1.cpp:94:46: error: no match for 'operator/' (operand types are 'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' and 'int')
+  sub1 = num1.substr(num1.begin(), num1.end() / 2);
+                                              ^
+..\src\Genetic_lab1.cpp:94:46: note: candidates are:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:66:0,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\complex:414:5: note: template<class _Tp> std::complex<_Tp> std::operator/(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator/(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\complex:414:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:48: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::complex<_Tp>'
+  sub1 = num1.substr(num1.begin(), num1.end() / 2);
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:66:0,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\complex:423:5: note: template<class _Tp> std::complex<_Tp> std::operator/(const std::complex<_Tp>&, const _Tp&)
+     operator/(const complex<_Tp>& __x, const _Tp& __y)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\complex:423:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:48: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::complex<_Tp>'
+  sub1 = num1.substr(num1.begin(), num1.end() / 2);
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:66:0,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\complex:432:5: note: template<class _Tp> std::complex<_Tp> std::operator/(const _Tp&, const std::complex<_Tp>&)
+     operator/(const _Tp& __x, const complex<_Tp>& __y)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\complex:432:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:48: note:   mismatched types 'const std::complex<_Tp>' and 'int'
+  sub1 = num1.substr(num1.begin(), num1.end() / 2);
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__divides, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__divides, typename _Dom1::value_type>::result_type> std::operator/(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(/, __divides)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:48: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+  sub1 = num1.substr(num1.begin(), num1.end() / 2);
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__divides, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__divides, typename _Dom1::value_type>::result_type> std::operator/(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(/, __divides)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:48: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+  sub1 = num1.substr(num1.begin(), num1.end() / 2);
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__divides, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__divides, typename _Dom1::value_type>::result_type> std::operator/(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(/, __divides)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:48: note:   mismatched types 'const std::_Expr<_Dom1, typename _Dom1::value_type>' and 'int'
+  sub1 = num1.substr(num1.begin(), num1.end() / 2);
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__divides, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__divides, typename _Dom1::value_type>::result_type> std::operator/(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(/, __divides)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:48: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+  sub1 = num1.substr(num1.begin(), num1.end() / 2);
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__divides, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__divides, typename _Dom1::value_type>::result_type> std::operator/(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(/, __divides)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:48: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::valarray<typename _Dom::value_type>'
+  sub1 = num1.substr(num1.begin(), num1.end() / 2);
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94:0,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1157:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__divides, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__divides, _Tp>::result_type> std::operator/(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(/, __divides)
+ ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1157:1: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:48: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::valarray<_Tp>'
+  sub1 = num1.substr(num1.begin(), num1.end() / 2);
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94:0,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1157:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__divides, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__divides, _Tp>::result_type> std::operator/(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(/, __divides)
+ ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1157:1: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:48: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::valarray<_Tp>'
+  sub1 = num1.substr(num1.begin(), num1.end() / 2);
+                                                ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94:0,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1157:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__divides, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__divides, _Tp>::result_type> std::operator/(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(/, __divides)
+ ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1157:1: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:48: note:   mismatched types 'const std::valarray<_Tp>' and 'int'
+  sub1 = num1.substr(num1.begin(), num1.end() / 2);
+                                                ^
+..\src\Genetic_lab1.cpp:95:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+00:51:16 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'std::pair<int, int> crossOver(int, int)':
+..\src\Genetic_lab1.cpp:94:47: error: no match for 'operator/' (operand types are 'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' and 'int')
+  sub1 += num1.substr(num1.begin(), num1.end() / 2);
+                                               ^
+..\src\Genetic_lab1.cpp:94:47: note: candidates are:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:66:0,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\complex:414:5: note: template<class _Tp> std::complex<_Tp> std::operator/(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator/(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\complex:414:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:49: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::complex<_Tp>'
+  sub1 += num1.substr(num1.begin(), num1.end() / 2);
+                                                 ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:66:0,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\complex:423:5: note: template<class _Tp> std::complex<_Tp> std::operator/(const std::complex<_Tp>&, const _Tp&)
+     operator/(const complex<_Tp>& __x, const _Tp& __y)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\complex:423:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:49: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::complex<_Tp>'
+  sub1 += num1.substr(num1.begin(), num1.end() / 2);
+                                                 ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:66:0,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\complex:432:5: note: template<class _Tp> std::complex<_Tp> std::operator/(const _Tp&, const std::complex<_Tp>&)
+     operator/(const _Tp& __x, const complex<_Tp>& __y)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\complex:432:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:49: note:   mismatched types 'const std::complex<_Tp>' and 'int'
+  sub1 += num1.substr(num1.begin(), num1.end() / 2);
+                                                 ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__divides, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__divides, typename _Dom1::value_type>::result_type> std::operator/(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(/, __divides)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:49: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+  sub1 += num1.substr(num1.begin(), num1.end() / 2);
+                                                 ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__divides, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__divides, typename _Dom1::value_type>::result_type> std::operator/(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(/, __divides)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:49: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+  sub1 += num1.substr(num1.begin(), num1.end() / 2);
+                                                 ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__divides, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__divides, typename _Dom1::value_type>::result_type> std::operator/(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(/, __divides)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:49: note:   mismatched types 'const std::_Expr<_Dom1, typename _Dom1::value_type>' and 'int'
+  sub1 += num1.substr(num1.begin(), num1.end() / 2);
+                                                 ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__divides, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__divides, typename _Dom1::value_type>::result_type> std::operator/(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(/, __divides)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:49: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+  sub1 += num1.substr(num1.begin(), num1.end() / 2);
+                                                 ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__divides, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__divides, typename _Dom1::value_type>::result_type> std::operator/(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(/, __divides)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:405:5: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:49: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::valarray<typename _Dom::value_type>'
+  sub1 += num1.substr(num1.begin(), num1.end() / 2);
+                                                 ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94:0,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1157:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__divides, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__divides, _Tp>::result_type> std::operator/(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(/, __divides)
+ ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1157:1: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:49: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::valarray<_Tp>'
+  sub1 += num1.substr(num1.begin(), num1.end() / 2);
+                                                 ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94:0,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1157:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__divides, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__divides, _Tp>::result_type> std::operator/(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(/, __divides)
+ ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1157:1: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:49: note:   'std::basic_string<char>::iterator {aka __gnu_cxx::__normal_iterator<char*, std::basic_string<char> >}' is not derived from 'const std::valarray<_Tp>'
+  sub1 += num1.substr(num1.begin(), num1.end() / 2);
+                                                 ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94:0,
+                 from ..\src\Genetic_lab1.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1157:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__divides, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__divides, _Tp>::result_type> std::operator/(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(/, __divides)
+ ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1157:1: note:   template argument deduction/substitution failed:
+..\src\Genetic_lab1.cpp:94:49: note:   mismatched types 'const std::valarray<_Tp>' and 'int'
+  sub1 += num1.substr(num1.begin(), num1.end() / 2);
+                                                 ^
+..\src\Genetic_lab1.cpp:95:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+00:51:47 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'std::pair<int, int> crossOver(int, int)':
+..\src\Genetic_lab1.cpp:95:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'int main()':
+..\src\Genetic_lab1.cpp:103:17: warning: variable 'parentIndex' set but not used [-Wunused-but-set-variable]
+  pair<int, int> parentIndex = getParent();
+                 ^
+g++ -o ACM.exe "src\\Genetic_lab1.o" 
+00:54:42 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int mutuation()':
+..\src\Genetic_lab1.cpp:90:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+..\src\Genetic_lab1.cpp: In function 'int main()':
+..\src\Genetic_lab1.cpp:108:17: warning: variable 'parentIndex' set but not used [-Wunused-but-set-variable]
+  pair<int, int> parentIndex = getParent();
+                 ^
+g++ -o ACM.exe "src\\Genetic_lab1.o" 
+01:02:29 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'void generatePop()':
+..\src\Genetic_lab1.cpp:46:6: warning: unused variable 'lw' [-Wunused-variable]
+  int lw = 0, up = upper - lower;
+      ^
+..\src\Genetic_lab1.cpp: In function 'int main()':
+..\src\Genetic_lab1.cpp:111:17: warning: variable 'parentIndex' set but not used [-Wunused-but-set-variable]
+  pair<int, int> parentIndex = getParent();
+                 ^
+g++ -o ACM.exe "src\\Genetic_lab1.o" 
+01:04:08 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
+..\src\Genetic_lab1.cpp: In function 'int main()':
+..\src\Genetic_lab1.cpp:111:17: warning: variable 'parentIndex' set but not used [-Wunused-but-set-variable]
+  pair<int, int> parentIndex = getParent();
+                 ^
+g++ -o ACM.exe "src\\Genetic_lab1.o" 
+17:58:10 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘int main()’:
+../src/Genetic_lab1.cpp:111:17: warning: variable ‘parentIndex’ set but not used [-Wunused-but-set-variable]
+  pair<int, int> parentIndex = getParent();
+                 ^
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building file: ../pending/Dreamoon and Stairs.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pending/Dreamoon and Stairs.d" -MT"pending/Dreamoon\ and\ Stairs.d" -o "pending/Dreamoon and Stairs.o" "../pending/Dreamoon and Stairs.cpp"
+Finished building: ../pending/Dreamoon and Stairs.cpp
+ 
+Building file: ../done/Diverse Permutation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"done/Diverse Permutation.d" -MT"done/Diverse\ Permutation.d" -o "done/Diverse Permutation.o" "../done/Diverse Permutation.cpp"
+Finished building: ../done/Diverse Permutation.cpp
+ 
+Building file: ../done/Expression.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"done/Expression.d" -MT"done/Expression.d" -o "done/Expression.o" "../done/Expression.cpp"
+Finished building: ../done/Expression.cpp
+ 
+Building file: ../done/Towers.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"done/Towers.d" -MT"done/Towers.d" -o "done/Towers.o" "../done/Towers.cpp"
+Finished building: ../done/Towers.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o  ./pending/Dreamoon\ and\ Stairs.o  ./done/Diverse\ Permutation.o ./done/Expression.o ./done/Towers.o   
+./pending/Dreamoon and Stairs.o: In function `main':
+/home/sngv/workspace/C++/Debug/../pending/Dreamoon and Stairs.cpp:15: multiple definition of `main'
+./src/Genetic_lab1.o:/home/sngv/workspace/C++/Debug/../src/Genetic_lab1.cpp:105: first defined here
+./done/Diverse Permutation.o: In function `main':
+/home/sngv/workspace/C++/Debug/../done/Diverse Permutation.cpp:16: multiple definition of `main'
+./src/Genetic_lab1.o:/home/sngv/workspace/C++/Debug/../src/Genetic_lab1.cpp:105: first defined here
+./done/Expression.o: In function `main':
+/home/sngv/workspace/C++/Debug/../done/Expression.cpp:26: multiple definition of `main'
+./src/Genetic_lab1.o:/home/sngv/workspace/C++/Debug/../src/Genetic_lab1.cpp:105: first defined here
+./done/Towers.o: In function `__gnu_cxx::new_allocator<std::pair<int, int> >::new_allocator()':
+/home/sngv/workspace/C++/Debug/../done/Towers.cpp:16: multiple definition of `main'
+./src/Genetic_lab1.o:/home/sngv/workspace/C++/Debug/../src/Genetic_lab1.cpp:105: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [C++] Error 1
+17:58:39 **** Clean-only build of configuration Debug for project C++ ****
+make clean 
+rm -rf  ./src/Genetic_lab1.o  ./pending/Dreamoon\ and\ Stairs.o  ./done/Diverse\ Permutation.o ./done/Expression.o ./done/Towers.o  ./src/Genetic_lab1.d  ./pending/Dreamoon\ and\ Stairs.d  ./done/Diverse\ Permutation.d ./done/Expression.d ./done/Towers.d  C++
+ 
+17:58:39 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘int main()’:
+../src/Genetic_lab1.cpp:111:17: warning: variable ‘parentIndex’ set but not used [-Wunused-but-set-variable]
+  pair<int, int> parentIndex = getParent();
+                 ^
 Finished building: ../src/Genetic_lab1.cpp
  
 Building target: C++

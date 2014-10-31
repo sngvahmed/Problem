@@ -1,6 +1,10 @@
+<<<<<<< HEAD
+Info: Nothing to build for solving problem
+=======
 18:44:44 **** Incremental Build of configuration Default for project solving problem ****
 make all 
 make: *** No rule to make target `all'.  Stop.
 
 18:44:44 Build Finished (took 72ms)
 
+>>>>>>> 05ced47e2d7ea8a464e3cffb5e0caf61704f26fb
