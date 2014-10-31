@@ -1,5 +1,6 @@
-*.metadata
-**.metadata
-.metadata/*
-**RemoteSystemsTempFiles
-RemoteSystemsTempFiles/*
+# Created by https://www.gitignore.io
+
+#!! ERROR: .metadata is undefined. Use list command to see defined gitignore types !!#
+# Created by https://www.gitignore.io
+
+#!! ERROR: remotesystemstempfiles is undefined. Use list command to see defined gitignore types !!#
