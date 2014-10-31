@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 colorArrayBracket=85,170,85
 colorArrayBracketEnabled=true
 colorArrayBracketStyle=0
@@ -26,6 +27,26 @@ colorObjectBracket=85,170,85
 colorObjectBracketEnabled=true
 colorObjectBracketStyle=0
 colorString=49,126,204
+=======
+colorArrayBracketEnabled=true
+colorArrayBracketStyle=0
+colorBooleanEnabled=true
+colorBooleanStyle=0
+colorBracketEnabled=true
+colorBracketStyle=0
+colorDefaultEnabled=true
+colorDefaultStyle=0
+colorKeyEnabled=true
+colorKeyStyle=0
+colorMatchBracketEnabled=true
+colorMatchBracketStyle=0
+colorNullEnabled=true
+colorNullStyle=0
+colorNumberEnabled=true
+colorNumberStyle=0
+colorObjectBracketEnabled=true
+colorObjectBracketStyle=0
+>>>>>>> 05ced47e2d7ea8a464e3cffb5e0caf61704f26fb
 colorStringEnabled=true
 colorStringStyle=0
 eclipse.preferences.version=1

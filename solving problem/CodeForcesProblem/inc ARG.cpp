@@ -1,8 +1,8 @@
 // @Sep 13, 2014
-// @CPY sngv ..... inc ARG.cpp 
+// @CPY sngv ..... inc ARG.cpp
 #include "bits/stdc++.h"
 #include <functional>
-#include <ext/numeric> // for power long long 
+#include <ext/numeric> // for power long long
 
 using namespace std;
 
@@ -35,32 +35,32 @@ typedef pair < int,pair < int,int > > Hamada;
 
 int main( ) {
 #ifndef ONLINE_JUDGE
-	 freopen("test.in","rt",stdin);
+     freopen("test.in","rt",stdin);
 #endif
-	 int n;
-	 scanf("%d",&n);
-	 string str;
-	 cin>>str;
-	 string strRes;
-	 strRes.resize((SZ(str)));
-	 int tmp=1;
-	 FO(i , 0 , n)
-	 {
-		  if(str [i]=='0'&&!tmp){
-				strRes [i]='0';
-		  }
-		  else if((str [i]=='0'&&tmp)||(str [i]=='1'&&!tmp)){
-				strRes [i]='1';
-				tmp=0;
-		  }
-		  else if((str [i]=='1'&&tmp)){
-				strRes [i]='0';
-				tmp=1;
-		  }
-	 }
-	 tmp=0;
-	 FO(i , 0 , n)
-	 		  if(str [i]!=strRes [i]) tmp++;
-	 cout<<tmp<<endl;
-	 return 0;
+     int n;
+     scanf("%d",&n);
+     string str;
+     cin>>str;
+     string strRes;
+     strRes.resize((SZ(str)));
+     int tmp=1;
+     FO(i , 0 , n)
+     {
+          if(str [i]=='0'&&!tmp){
+                strRes [i]='0';
+          }
+          else if((str [i]=='0'&&tmp)||(str [i]=='1'&&!tmp)){
+                strRes [i]='1';
+                tmp=0;
+          }
+          else if((str [i]=='1'&&tmp)){
+                strRes [i]='0';
+                tmp=1;
+          }
+     }
+     tmp=0;
+     FO(i , 0 , n)
+              if(str [i]!=strRes [i]) tmp++;
+     cout<<tmp<<endl;
+     return 0;
 }

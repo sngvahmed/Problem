@@ -1,4 +1,5 @@
 cssCommentBold=false
+<<<<<<< HEAD
 cssCommentColor=\#AD95AF
 cssCommentItalic=true
 cssCommentStrikethrough=false
@@ -37,4 +38,27 @@ cssSymbolItalic=true
 cssSymbolStrikethrough=false
 cssSymbolUnderline=false
 cssTextColor=\#585858
+=======
+cssCommentItalic=true
+cssFontFaceBold=true
+cssFontFaceItalic=false
+cssImportBold=true
+cssImportItalic=false
+cssMediaBold=true
+cssMediaItalic=false
+cssPropertyNameBold=false
+cssPropertyNameItalic=false
+cssPropertyNameStrikethrough=false
+cssPropertyNameUnderline=true
+cssPropertyValueBold=false
+cssPropertyValueItalic=false
+cssSelectorBold=false
+cssSelectorItalic=false
+cssSelectorStrikethrough=false
+cssSelectorUnderline=false
+cssStringBold=false
+cssStringItalic=false
+cssSymbolBold=true
+cssSymbolItalic=false
+>>>>>>> 05ced47e2d7ea8a464e3cffb5e0caf61704f26fb
 eclipse.preferences.version=1

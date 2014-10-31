@@ -1,4 +1,5 @@
 asASDocBold=false
+<<<<<<< HEAD
 asASDocColor=\#AD95AF
 asASDocItalic=true
 eclipse.preferences.version=1
@@ -19,3 +20,21 @@ mxmlTagItalic=false
 mxmlTagStrikethrough=false
 mxmlTagUnderline=false
 mxmlTextColor=\#585858
+=======
+asASDocItalic=false
+eclipse.preferences.version=1
+mxmlCommentBold=false
+mxmlCommentItalic=true
+mxmlComponentTagBold=false
+mxmlComponentTagItalic=false
+mxmlComponentTagStrikethrough=false
+mxmlComponentTagUnderline=true
+mxmlProcessingInstructionBold=false
+mxmlProcessingInstructionItalic=false
+mxmlStringBold=false
+mxmlStringItalic=false
+mxmlTagBold=false
+mxmlTagItalic=false
+mxmlTagStrikethrough=false
+mxmlTagUnderline=false
+>>>>>>> 05ced47e2d7ea8a464e3cffb5e0caf61704f26fb

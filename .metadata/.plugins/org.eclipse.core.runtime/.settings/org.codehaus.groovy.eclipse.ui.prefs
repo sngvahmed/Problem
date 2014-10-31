@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 groovy.editor.groovyDoc.keyword.color=204,147,147
 groovy.editor.groovyDoc.keyword.enabled=true
 groovy.editor.groovyDoc.link.color=173,149,175
@@ -64,3 +65,8 @@ semanticHighlighting.typeArgument.color=136,93,59
 semanticHighlighting.typeArgument.enabled=true
 semanticHighlighting.typeParameter.color=136,93,59
 semanticHighlighting.typeParameter.enabled=true
+=======
+groovy.editor.groovyDoc.keyword.enabled=true
+groovy.editor.groovyDoc.link.enabled=true
+groovy.editor.groovyDoc.tag.enabled=true
+>>>>>>> 05ced47e2d7ea8a464e3cffb5e0caf61704f26fb

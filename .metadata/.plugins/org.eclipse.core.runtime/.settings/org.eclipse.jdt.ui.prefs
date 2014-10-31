@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 eclipse.preferences.version=1
 java_bracket=176,90,101
 java_comment_task_tag=41,95,148
@@ -70,3 +71,19 @@ semanticHighlighting.typeArgument.enabled=true
 semanticHighlighting.typeParameter.color=136,93,59
 semanticHighlighting.typeParameter.enabled=true
 sourceHoverBackgroundColor=238,238,238
+=======
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=60,60,60
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jface.textfont=1|Monospace|10.0|0|GTK|1|;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
+>>>>>>> 05ced47e2d7ea8a464e3cffb5e0caf61704f26fb
