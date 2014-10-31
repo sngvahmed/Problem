@@ -8767,3 +8767,402 @@ Invoking: GCC C++ Linker
 g++  -o "C++"  ./src/Genetic_lab1.o   
 Finished building target: C++
  
+19:00:29 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘std::pair<double, double> runGA()’:
+../src/Genetic_lab1.cpp:126:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < population.size(); i++) {
+                                       ^
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:00:42 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘std::pair<double, double> runGA()’:
+../src/Genetic_lab1.cpp:126:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < population.size(); i++) {
+                                       ^
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:01:49 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘std::pair<double, double> runGA()’:
+../src/Genetic_lab1.cpp:128:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < population.size(); i++) {
+                                       ^
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:02:20 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:03:14 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:04:31 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:05:24 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:05:58 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:06:42 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:43 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:44 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:45 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:45 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:49 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:50 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:07:40 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:08:20 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:08:32 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:08:56 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:09:45 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:12:13 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:12:28 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:14:24 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘void generatePop()’:
+../src/Genetic_lab1.cpp:58:22: error: ‘toBase’ was not declared in this scope
+  nBits = toBase(up, 2).size();
+                      ^
+../src/Genetic_lab1.cpp: In function ‘int mutuation(int)’:
+../src/Genetic_lab1.cpp:100:9: error: ‘dif’ was not declared in this scope
+  while (dif--) {
+         ^
+../src/Genetic_lab1.cpp:99:6: warning: unused variable ‘diff’ [-Wunused-variable]
+  int diff = nBits - SZ(str);
+      ^
+make: *** [src/Genetic_lab1.o] Error 1
+19:14:31 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘void generatePop()’:
+../src/Genetic_lab1.cpp:58:22: error: ‘toBase’ was not declared in this scope
+  nBits = toBase(up, 2).size();
+                      ^
+make: *** [src/Genetic_lab1.o] Error 1
+19:15:28 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘void generatePop()’:
+../src/Genetic_lab1.cpp:58:22: error: ‘toBase’ was not declared in this scope
+  nBits = toBase(up, 2).size();
+                      ^
+make: *** [src/Genetic_lab1.o] Error 1
+19:15:57 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘void generatePop()’:
+../src/Genetic_lab1.cpp:61:22: error: ‘toBase’ was not declared in this scope
+  nBits = toBase(up, 2).size();
+                      ^
+make: *** [src/Genetic_lab1.o] Error 1
+19:16:13 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:16:16 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:16:37 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:16:46 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:22:23 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+20:08:03 **** Clean-only build of configuration Debug for project C++ ****
+make clean 
+rm -rf  ./src/Genetic_lab1.o  ./src/Genetic_lab1.d  C++
+ 
+20:08:03 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Initial Bet.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Initial Bet.d" -MT"src/Initial\ Bet.d" -o "src/Initial Bet.o" "../src/Initial Bet.cpp"
+Finished building: ../src/Initial Bet.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Initial\ Bet.o   
+Finished building target: C++
+ 
+20:09:12 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Initial Bet.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Initial Bet.d" -MT"src/Initial\ Bet.d" -o "src/Initial Bet.o" "../src/Initial Bet.cpp"
+Finished building: ../src/Initial Bet.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Initial\ Bet.o   
+Finished building target: C++
+ 
+20:09:19 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+20:10:25 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Initial Bet.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Initial Bet.d" -MT"src/Initial\ Bet.d" -o "src/Initial Bet.o" "../src/Initial Bet.cpp"
+Finished building: ../src/Initial Bet.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Initial\ Bet.o   
+Finished building target: C++
+ 
+20:36:46 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Random Teams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Random Teams.d" -MT"src/Random\ Teams.d" -o "src/Random Teams.o" "../src/Random Teams.cpp"
+Finished building: ../src/Random Teams.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Random\ Teams.o   
+Finished building target: C++
+ 
+20:37:30 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Random Teams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Random Teams.d" -MT"src/Random\ Teams.d" -o "src/Random Teams.o" "../src/Random Teams.cpp"
+Finished building: ../src/Random Teams.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Random\ Teams.o   
+Finished building target: C++
+ 
+20:37:45 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Random Teams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Random Teams.d" -MT"src/Random\ Teams.d" -o "src/Random Teams.o" "../src/Random Teams.cpp"
+Finished building: ../src/Random Teams.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Random\ Teams.o   
+Finished building target: C++
+ 
+20:38:35 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Random Teams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Random Teams.d" -MT"src/Random\ Teams.d" -o "src/Random Teams.o" "../src/Random Teams.cpp"
+Finished building: ../src/Random Teams.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Random\ Teams.o   
+Finished building target: C++
+ 
+20:38:39 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+20:38:43 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
