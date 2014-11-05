@@ -2,7 +2,7 @@
 <<<<<<<=HEAD
 >>>>>>>=05ced47e2d7ea8a464e3cffb5e0caf61704f26fb
 eclipse.preferences.version=1
-org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
 org.eclipse.debug.ui.consoleBackground=245,245,245
 org.eclipse.debug.ui.errorColor=41,95,148
 org.eclipse.debug.ui.inColor=88,88,88
