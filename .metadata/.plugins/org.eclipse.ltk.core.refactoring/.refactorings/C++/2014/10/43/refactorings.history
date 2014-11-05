@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;C++/src/problem.cpp&apos; to &apos;Dreamoon and Stairs.cpp&apos;" description="Rename resource &apos;problem.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/problem.cpp" name="Dreamoon and Stairs.cpp" stamp="1413800064523" updateReferences="true"/>
-</session>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;ACM/src/tmp.cpp&apos; to &apos;Devu, the Singer and Churu, the Joker.cpp&apos;" description="Rename resource &apos;tmp.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/tmp.cpp" name="Devu, the Singer and Churu, the Joker.cpp" stamp="1414016729099" updateReferences="true"/>
-</session>

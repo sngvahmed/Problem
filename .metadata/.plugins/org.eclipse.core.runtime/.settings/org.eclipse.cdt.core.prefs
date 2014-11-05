@@ -1,7 +1,0 @@
-eclipse.preferences.version=1
-<<<<<<< HEAD
-=======
-errorparser.default.ids=org.eclipse.cdt.autotools.core.ErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.VCErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.MakeErrorParser
-language.settings.providers.workspace.prefs.toggle=true
->>>>>>> 05ced47e2d7ea8a464e3cffb5e0caf61704f26fb
-org.eclipse.cdt.core.showSourceRootsAtTopLevelOfProject=true
