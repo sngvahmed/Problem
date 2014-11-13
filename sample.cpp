@@ -11,6 +11,7 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 #define rall(x) x.rbegin(), x.rend()
 #define MMS(x, v) memset(x, v, sizeof(x))
+#define SF(x) scanf("%d" , %x)
 
 int main() {
   return 0;

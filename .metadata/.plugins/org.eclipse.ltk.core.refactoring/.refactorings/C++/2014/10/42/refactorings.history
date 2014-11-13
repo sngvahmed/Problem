@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;C++/src/codeforces until work.cpp&apos; to &apos;MUH and House of Cards.cpp&apos;" description="Rename resource &apos;codeforces until work.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/codeforces until work.cpp" name="MUH and House of Cards.cpp" stamp="1413484090823" updateReferences="true"/>
-</session>
