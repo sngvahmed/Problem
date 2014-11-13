@@ -8699,3 +8699,1810 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genet
   pair<int, int> parentIndex = getParent();
                  ^
 g++ -o ACM.exe "src\\Genetic_lab1.o" 
+17:58:10 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘int main()’:
+../src/Genetic_lab1.cpp:111:17: warning: variable ‘parentIndex’ set but not used [-Wunused-but-set-variable]
+  pair<int, int> parentIndex = getParent();
+                 ^
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building file: ../pending/Dreamoon and Stairs.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pending/Dreamoon and Stairs.d" -MT"pending/Dreamoon\ and\ Stairs.d" -o "pending/Dreamoon and Stairs.o" "../pending/Dreamoon and Stairs.cpp"
+Finished building: ../pending/Dreamoon and Stairs.cpp
+ 
+Building file: ../done/Diverse Permutation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"done/Diverse Permutation.d" -MT"done/Diverse\ Permutation.d" -o "done/Diverse Permutation.o" "../done/Diverse Permutation.cpp"
+Finished building: ../done/Diverse Permutation.cpp
+ 
+Building file: ../done/Expression.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"done/Expression.d" -MT"done/Expression.d" -o "done/Expression.o" "../done/Expression.cpp"
+Finished building: ../done/Expression.cpp
+ 
+Building file: ../done/Towers.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"done/Towers.d" -MT"done/Towers.d" -o "done/Towers.o" "../done/Towers.cpp"
+Finished building: ../done/Towers.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o  ./pending/Dreamoon\ and\ Stairs.o  ./done/Diverse\ Permutation.o ./done/Expression.o ./done/Towers.o   
+./pending/Dreamoon and Stairs.o: In function `main':
+/home/sngv/workspace/C++/Debug/../pending/Dreamoon and Stairs.cpp:15: multiple definition of `main'
+./src/Genetic_lab1.o:/home/sngv/workspace/C++/Debug/../src/Genetic_lab1.cpp:105: first defined here
+./done/Diverse Permutation.o: In function `main':
+/home/sngv/workspace/C++/Debug/../done/Diverse Permutation.cpp:16: multiple definition of `main'
+./src/Genetic_lab1.o:/home/sngv/workspace/C++/Debug/../src/Genetic_lab1.cpp:105: first defined here
+./done/Expression.o: In function `main':
+/home/sngv/workspace/C++/Debug/../done/Expression.cpp:26: multiple definition of `main'
+./src/Genetic_lab1.o:/home/sngv/workspace/C++/Debug/../src/Genetic_lab1.cpp:105: first defined here
+./done/Towers.o: In function `__gnu_cxx::new_allocator<std::pair<int, int> >::new_allocator()':
+/home/sngv/workspace/C++/Debug/../done/Towers.cpp:16: multiple definition of `main'
+./src/Genetic_lab1.o:/home/sngv/workspace/C++/Debug/../src/Genetic_lab1.cpp:105: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [C++] Error 1
+17:58:39 **** Clean-only build of configuration Debug for project C++ ****
+make clean 
+rm -rf  ./src/Genetic_lab1.o  ./pending/Dreamoon\ and\ Stairs.o  ./done/Diverse\ Permutation.o ./done/Expression.o ./done/Towers.o  ./src/Genetic_lab1.d  ./pending/Dreamoon\ and\ Stairs.d  ./done/Diverse\ Permutation.d ./done/Expression.d ./done/Towers.d  C++
+ 
+17:58:39 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘int main()’:
+../src/Genetic_lab1.cpp:111:17: warning: variable ‘parentIndex’ set but not used [-Wunused-but-set-variable]
+  pair<int, int> parentIndex = getParent();
+                 ^
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:00:29 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘std::pair<double, double> runGA()’:
+../src/Genetic_lab1.cpp:126:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < population.size(); i++) {
+                                       ^
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:00:42 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘std::pair<double, double> runGA()’:
+../src/Genetic_lab1.cpp:126:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < population.size(); i++) {
+                                       ^
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:01:49 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘std::pair<double, double> runGA()’:
+../src/Genetic_lab1.cpp:128:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < population.size(); i++) {
+                                       ^
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:02:20 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:03:14 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:04:31 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:05:24 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:05:58 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:06:42 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:43 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:44 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:45 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:45 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:49 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:50 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:07:40 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:08:20 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:08:32 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:08:56 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:09:45 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:12:13 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:12:28 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:14:24 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘void generatePop()’:
+../src/Genetic_lab1.cpp:58:22: error: ‘toBase’ was not declared in this scope
+  nBits = toBase(up, 2).size();
+                      ^
+../src/Genetic_lab1.cpp: In function ‘int mutuation(int)’:
+../src/Genetic_lab1.cpp:100:9: error: ‘dif’ was not declared in this scope
+  while (dif--) {
+         ^
+../src/Genetic_lab1.cpp:99:6: warning: unused variable ‘diff’ [-Wunused-variable]
+  int diff = nBits - SZ(str);
+      ^
+make: *** [src/Genetic_lab1.o] Error 1
+19:14:31 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘void generatePop()’:
+../src/Genetic_lab1.cpp:58:22: error: ‘toBase’ was not declared in this scope
+  nBits = toBase(up, 2).size();
+                      ^
+make: *** [src/Genetic_lab1.o] Error 1
+19:15:28 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘void generatePop()’:
+../src/Genetic_lab1.cpp:58:22: error: ‘toBase’ was not declared in this scope
+  nBits = toBase(up, 2).size();
+                      ^
+make: *** [src/Genetic_lab1.o] Error 1
+19:15:57 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+../src/Genetic_lab1.cpp: In function ‘void generatePop()’:
+../src/Genetic_lab1.cpp:61:22: error: ‘toBase’ was not declared in this scope
+  nBits = toBase(up, 2).size();
+                      ^
+make: *** [src/Genetic_lab1.o] Error 1
+19:16:13 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:16:16 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+19:16:37 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:16:46 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Genetic_lab1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Genetic_lab1.d" -MT"src/Genetic_lab1.d" -o "src/Genetic_lab1.o" "../src/Genetic_lab1.cpp"
+Finished building: ../src/Genetic_lab1.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Genetic_lab1.o   
+Finished building target: C++
+ 
+19:22:23 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+20:08:03 **** Clean-only build of configuration Debug for project C++ ****
+make clean 
+rm -rf  ./src/Genetic_lab1.o  ./src/Genetic_lab1.d  C++
+ 
+20:08:03 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Initial Bet.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Initial Bet.d" -MT"src/Initial\ Bet.d" -o "src/Initial Bet.o" "../src/Initial Bet.cpp"
+Finished building: ../src/Initial Bet.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Initial\ Bet.o   
+Finished building target: C++
+ 
+20:09:12 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Initial Bet.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Initial Bet.d" -MT"src/Initial\ Bet.d" -o "src/Initial Bet.o" "../src/Initial Bet.cpp"
+Finished building: ../src/Initial Bet.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Initial\ Bet.o   
+Finished building target: C++
+ 
+20:09:19 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+20:10:25 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Initial Bet.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Initial Bet.d" -MT"src/Initial\ Bet.d" -o "src/Initial Bet.o" "../src/Initial Bet.cpp"
+Finished building: ../src/Initial Bet.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Initial\ Bet.o   
+Finished building target: C++
+ 
+20:36:46 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Random Teams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Random Teams.d" -MT"src/Random\ Teams.d" -o "src/Random Teams.o" "../src/Random Teams.cpp"
+Finished building: ../src/Random Teams.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Random\ Teams.o   
+Finished building target: C++
+ 
+20:37:30 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Random Teams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Random Teams.d" -MT"src/Random\ Teams.d" -o "src/Random Teams.o" "../src/Random Teams.cpp"
+Finished building: ../src/Random Teams.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Random\ Teams.o   
+Finished building target: C++
+ 
+20:37:45 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Random Teams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Random Teams.d" -MT"src/Random\ Teams.d" -o "src/Random Teams.o" "../src/Random Teams.cpp"
+Finished building: ../src/Random Teams.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Random\ Teams.o   
+Finished building target: C++
+ 
+20:38:35 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+Building file: ../src/Random Teams.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Random Teams.d" -MT"src/Random\ Teams.d" -o "src/Random Teams.o" "../src/Random Teams.cpp"
+Finished building: ../src/Random Teams.cpp
+ 
+Building target: C++
+Invoking: GCC C++ Linker
+g++  -o "C++"  ./src/Random\ Teams.o   
+Finished building target: C++
+ 
+20:38:39 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+20:38:43 **** Incremental Build of configuration Debug for project C++ ****
+make all 
+make: Nothing to be done for `all'.
+18:25:34 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" "src\\Genetic_lab1.o" 
+src\Genetic_lab1.o: In function `main':
+C:\Users\ahmed\Problem\ACM\Debug/../src/Genetic_lab1.cpp:105: multiple definition of `main'
+src\Little Pony and Crystal Mine.o:C:\Users\ahmed\Problem\ACM\Debug/../src/Little Pony and Crystal Mine.cpp:16: first defined here
+collect2.exe: error: ld returned 1 exit status
+18:25:46 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+Info: Nothing to build for ACM
+18:27:43 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:27:53 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:32:46 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:33:08 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:33:28 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:33:37 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:34:03 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:35:08 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:35:37 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:35:53 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:37:45 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:38:06 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:44:45 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:47:23 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:47:55 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:48:41 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:40:25: error: 'ft' was not declared in this scope
+   (f1 == 1) ? ty -= 2 : ft;
+                         ^
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+18:48:43 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:40:25: error: 'ft' was not declared in this scope
+   (f1 == 1) ? ty -= 2 : ft;
+                         ^
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+18:48:52 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:50:39 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+Info: Nothing to build for ACM
+18:51:09 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:51:16 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:51:20 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:52:35 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:52:38 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:52:56 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+18:53:25 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:57:59 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:58:42 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+18:58:53 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+19:00:04 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:00:09 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:00:53 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:00:55 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:01:05 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+Info: Nothing to build for ACM
+19:01:47 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+19:02:17 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+19:02:51 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+19:03:31 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+19:03:57 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+19:04:08 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Crystal Mine.o" "..\\src\\Little Pony and Crystal Mine.cpp" 
+..\src\Little Pony and Crystal Mine.cpp: In function 'int main()':
+..\src\Little Pony and Crystal Mine.cpp:20:19: warning: unused variable 'tot' [-Wunused-variable]
+  int t = rem - 1, tot = 1;
+                   ^
+g++ -o ACM.exe "src\\Little Pony and Crystal Mine.o" 
+19:43:41 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:23:6: warning: unused variable 'test' [-Wunused-variable]
+  int test = arr[SZ(arr) - 1];
+      ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" "src\\Little Pony and Crystal Mine.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:43:53 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:23:6: warning: unused variable 'test' [-Wunused-variable]
+  int test = arr[SZ(arr) - 1];
+      ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+19:47:29 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:23:6: warning: unused variable 'test' [-Wunused-variable]
+  int test = arr[SZ(arr) - 1];
+      ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+19:47:51 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+19:59:56 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+20:00:46 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+20:01:14 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+20:10:01 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+20:14:44 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+20:18:26 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+20:23:52 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+20:24:37 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+20:25:52 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+20:26:07 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+20:26:57 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+20:29:48 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+20:31:07 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+20:32:41 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:20:7: warning: variable 'check' set but not used [-Wunused-but-set-variable]
+  bool check = 0;
+       ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+20:32:59 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+20:33:10 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+20:33:29 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+20:41:14 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:20:7: warning: unused variable 'check' [-Wunused-variable]
+  bool check = 0;
+       ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+20:47:30 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:20:7: warning: unused variable 'check' [-Wunused-variable]
+  bool check = 0;
+       ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+21:14:43 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:33:21: warning: variable 'mn' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 1 << 30;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:15:09 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:33:21: warning: variable 'mn' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 1 << 30;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+21:23:38 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:34:2: error: expected ',' or ';' before 'while'
+  while (sz) {
+  ^
+..\src\Little Pony and Sort by Shift.cpp:48:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+21:24:03 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:49:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+21:24:50 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:49:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+21:25:11 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:50:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+21:27:08 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:44:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+21:28:50 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:45:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:28:59 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:45:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:29:32 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:48:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:29:46 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:48:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+21:30:49 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:48:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:30:56 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:31:02 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:48:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:32:30 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:52:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:35:34 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:52:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+21:36:17 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:52:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+21:37:16 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:52:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:37:41 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:48:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+21:38:03 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:48:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:44:16 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:49:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:44:35 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:48:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:44:51 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:47:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+21:45:56 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:47:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:47:39 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:46:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:49:05 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:46:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:49:32 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:46:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:50:01 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:46:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:50:25 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:47:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:50:41 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:47:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:51:33 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:47:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:52:22 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:47:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:52:31 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:45:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:52:40 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:44:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+21:53:27 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:51:21: warning: unused variable 'mn' [-Wunused-variable]
+  int i = 0, mx = 0, mn = 0;
+                     ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+21:59:11 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:51:13: error: redeclaration of 'int mx'
+  int i = 0, mx = 0, mn = 0;
+             ^
+..\src\Little Pony and Sort by Shift.cpp:31:18: error: 'int mx' previously declared here
+  int sz = 0, mn, mx, mnn, mxx;
+                  ^
+..\src\Little Pony and Sort by Shift.cpp:51:21: error: redeclaration of 'int mn'
+  int i = 0, mx = 0, mn = 0;
+                     ^
+..\src\Little Pony and Sort by Shift.cpp:31:14: error: 'int mn' previously declared here
+  int sz = 0, mn, mx, mnn, mxx;
+              ^
+..\src\Little Pony and Sort by Shift.cpp:55:6: error: redeclaration of 'int mxx'
+  int mxx = SZ(arr) - 1, mnn = i + 1;
+      ^
+..\src\Little Pony and Sort by Shift.cpp:31:27: error: 'int mxx' previously declared here
+  int sz = 0, mn, mx, mnn, mxx;
+                           ^
+..\src\Little Pony and Sort by Shift.cpp:55:25: error: redeclaration of 'int mnn'
+  int mxx = SZ(arr) - 1, mnn = i + 1;
+                         ^
+..\src\Little Pony and Sort by Shift.cpp:31:22: error: 'int mnn' previously declared here
+  int sz = 0, mn, mx, mnn, mxx;
+                      ^
+21:59:22 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:51:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:59:28 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:51:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+22:01:15 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:52:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+22:01:41 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:51:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+22:02:52 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:53:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+22:03:22 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:53:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+22:04:21 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:55:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+22:04:52 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:56:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+22:06:51 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:76:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+22:07:49 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:77:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+22:08:17 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:77:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+22:08:57 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:77:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+22:09:08 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:77:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+22:09:21 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:76:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+Info: Nothing to build for ACM
+22:16:19 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Little Pony and Sort by Shift.o" "..\\src\\Little Pony and Sort by Shift.cpp" 
+..\src\Little Pony and Sort by Shift.cpp: In function 'int main()':
+..\src\Little Pony and Sort by Shift.cpp:84:13: warning: variable 'mx' set but not used [-Wunused-but-set-variable]
+  int i = 0, mx = 0, mn = 0;
+             ^
+g++ -o ACM.exe "src\\Little Pony and Sort by Shift.o" 
+21:01:19 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+..\src\Equidivisions.cpp: In function 'int main()':
+..\src\Equidivisions.cpp:67:32: error: conversion from 'void' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+    string nm1 = reverse(all(n1)), nm2 = reverse(all(n2));
+                                ^
+..\src\Equidivisions.cpp:67:56: error: conversion from 'void' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+    string nm1 = reverse(all(n1)), nm2 = reverse(all(n2));
+                                                        ^
+..\src\Equidivisions.cpp:76:33: error: conversion from 'void' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+    string tmp = reverse(all(ret));
+                                 ^
+21:03:10 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+..\src\Equidivisions.cpp: In function 'int main()':
+..\src\Equidivisions.cpp:68:17: error: 'nm2' was not declared in this scope
+    string ret = nm2;
+                 ^
+..\src\Equidivisions.cpp:70:31: error: 'nm1' was not declared in this scope
+     int indx = find(i + 1, SZ(nm1) - 1, '1', nm1);
+                               ^
+..\src\Equidivisions.cpp:6:20: note: in definition of macro 'SZ'
+ #define SZ(x) (int)x.size()
+                    ^
+..\src\Equidivisions.cpp:76:33: error: conversion from 'void' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+    string tmp = reverse(all(ret));
+                                 ^
+21:03:31 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+..\src\Equidivisions.cpp: In function 'int main()':
+..\src\Equidivisions.cpp:76:33: error: conversion from 'void' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+    string tmp = reverse(all(ret));
+                                 ^
+21:03:43 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+Info: Nothing to build for ACM
+21:04:20 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+21:05:38 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+21:06:19 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+21:11:59 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:12:25 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:13:06 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:13:27 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+21:40:48 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+Info: Nothing to build for ACM
+21:41:57 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+21:43:57 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:44:06 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Equidivisions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:44:12 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+21:47:10 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+21:50:56 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:53:18 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Equidivisions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:53:32 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -o ACM.exe "src\\Equidivisions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:54:55 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:55:03 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+21:59:08 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+..\src\Equidivisions.cpp: In function 'int main()':
+..\src\Equidivisions.cpp:79:26: error: no match for 'operator>' (operand types are 'long long int' and 'std::string {aka std::basic_string<char>}')
+     if (toDecimal(n1, 2) > n2)
+                          ^
+..\src\Equidivisions.cpp:79:26: note: candidates are:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\utility:70:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\algorithm:60,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:64,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_pair.h:233:5: note: template<class _T1, class _T2> bool std::operator>(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator>(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_pair.h:233:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::pair<_T1, _T2>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\algorithm:61,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:64,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_iterator.h:309:5: note: template<class _Iterator> bool std::operator>(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator>(const reverse_iterator<_Iterator>& __x,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_iterator.h:309:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\algorithm:61,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:64,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_iterator.h:359:5: note: template<class _IteratorL, class _IteratorR> bool std::operator>(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator>(const reverse_iterator<_IteratorL>& __x,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_iterator.h:359:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::reverse_iterator<_Iterator>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bitset:47,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:65,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2606:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator>(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator>(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2606:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bitset:47,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:65,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2618:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator>(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator>(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2618:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bitset:47,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:65,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2630:5: note: template<class _CharT, class _Traits, class _Alloc> bool std::operator>(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator>(const _CharT* __lhs,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\basic_string.h:2630:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const _CharT*' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\deque:64:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:67,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_deque.h:288:5: note: template<class _Tp, class _Ref, class _Ptr> bool std::operator>(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     operator>(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_deque.h:288:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::_Deque_iterator<_Tp, _Ref, _Ptr>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\deque:64:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:67,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_deque.h:295:5: note: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator>(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     operator>(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_deque.h:295:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::_Deque_iterator<_Tp, _Ref, _Ptr>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\deque:64:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:67,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_deque.h:1990:5: note: template<class _Tp, class _Alloc> bool std::operator>(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+     operator>(const deque<_Tp, _Alloc>& __x,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_deque.h:1990:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::deque<_Tp, _Alloc>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\list:63:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:78,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_list.h:1644:5: note: template<class _Tp, class _Alloc> bool std::operator>(const std::list<_Tp, _Alloc>&, const std::list<_Tp, _Alloc>&)
+     operator>(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_list.h:1644:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::list<_Tp, _Alloc>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\map:60:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:80,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_tree.h:931:5: note: template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator>(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+     operator>(const _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>& __x,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_tree.h:931:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\map:61:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:80,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_map.h:992:5: note: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator>(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+     operator>(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_map.h:992:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::map<_Key, _Tp, _Compare, _Alloc>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\map:62:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:80,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_multimap.h:894:5: note: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator>(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+     operator>(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_multimap.h:894:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::multimap<_Key, _Tp, _Compare, _Alloc>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\vector:64:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\queue:61,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:85,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_vector.h:1433:5: note: template<class _Tp, class _Alloc> bool std::operator>(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+     operator>(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_vector.h:1433:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::vector<_Tp, _Alloc>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\queue:64:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:85,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_queue.h:298:5: note: template<class _Tp, class _Seq> bool std::operator>(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)
+     operator>(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_queue.h:298:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::queue<_Tp, _Seq>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\set:61:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:86,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_set.h:783:5: note: template<class _Key, class _Compare, class _Alloc> bool std::operator>(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)
+     operator>(const set<_Key, _Compare, _Alloc>& __x,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_set.h:783:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::set<_Key, _Compare, _Alloc>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\set:62:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:86,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_multiset.h:768:5: note: template<class _Key, class _Compare, class _Alloc> bool std::operator>(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)
+     operator>(const multiset<_Key,_Compare,_Alloc>& __x,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_multiset.h:768:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::multiset<_Key, _Compare, _Alloc>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\stack:61:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:88,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_stack.h:273:5: note: template<class _Tp, class _Seq> bool std::operator>(const std::stack<_Tp, _Seq>&, const std::stack<_Tp, _Seq>&)
+     operator>(const stack<_Tp, _Seq>& __x, const stack<_Tp, _Seq>& __y)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_stack.h:273:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::stack<_Tp, _Seq>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:417:5: note: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__greater, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__greater, typename _Dom1::value_type>::result_type> std::operator>(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>, __greater)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:417:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::_Expr<_Dom1, typename _Dom1::value_type>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:417:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__greater, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__greater, typename _Dom1::value_type>::result_type> std::operator>(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>, __greater)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:417:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::_Expr<_Dom1, typename _Dom1::value_type>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:417:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__greater, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__greater, typename _Dom1::value_type>::result_type> std::operator>(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>, __greater)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:417:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::_Expr<_Dom1, typename _Dom1::value_type>'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:417:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__greater, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__greater, typename _Dom1::value_type>::result_type> std::operator>(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>, __greater)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:417:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::_Expr<_Dom1, typename _Dom1::value_type>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:587:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:417:5: note: template<class _Dom> std::_Expr<std::_BinClos<std::__greater, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__greater, typename _Dom1::value_type>::result_type> std::operator>(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(>, __greater)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\valarray_after.h:417:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::valarray<typename _Dom::value_type>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94:0,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1169:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__greater, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__greater, _Tp>::result_type> std::operator>(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(>, __greater)
+ ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1169:1: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::valarray<_Tp>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94:0,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1169:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__greater, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__greater, _Tp>::result_type> std::operator>(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(>, __greater)
+ ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1169:1: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const std::valarray<_Tp>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:94:0,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1169:1: note: template<class _Tp> std::_Expr<std::_BinClos<std::__greater, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__greater, _Tp>::result_type> std::operator>(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(>, __greater)
+ ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\valarray:1169:1: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::valarray<_Tp>'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\algorithm:61,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:64,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_iterator.h:848:5: note: template<class _Iterator, class _Container> bool __gnu_cxx::operator>(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator>(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_iterator.h:848:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_algobase.h:67:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\algorithm:61,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\mingw32\bits\stdc++.h:64,
+                 from ..\src\Equidivisions.cpp:1:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_iterator.h:842:5: note: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator>(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator>(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\bits\stl_iterator.h:842:5: note:   template argument deduction/substitution failed:
+..\src\Equidivisions.cpp:79:28: note:   mismatched types 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>' and 'long long int'
+     if (toDecimal(n1, 2) > n2)
+                            ^
+21:59:27 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file ACM.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:59:33 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+Info: Nothing to build for ACM
+Info: Nothing to build for ACM
+22:01:26 **** Incremental Build of configuration Debug for project ACM ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Equidivisions.o" "..\\src\\Equidivisions.cpp" 
+g++ -o ACM.exe "src\\Equidivisions.o" 
+Info: Nothing to build for ACM

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="ahmed" key="LastUsedSourceTemplate"/>
+	<item value="acm" key="LastUsedSourceTemplate"/>
 	<section name="completion_proposal_size">
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="CRenameRefactoringInputPage">
 	</section>
 	<section name="org.eclipse.cdt.internal.ui.preferences.EditTemplateDialog_dialogBounds">
 		<item value="602" key="DIALOG_WIDTH"/>

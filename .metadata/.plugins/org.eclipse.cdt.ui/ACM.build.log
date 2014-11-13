@@ -1,11 +1,1 @@
-01:04:08 **** Incremental Build of configuration Debug for project ACM ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Genetic_lab1.o" "..\\src\\Genetic_lab1.cpp" 
-..\src\Genetic_lab1.cpp: In function 'int main()':
-..\src\Genetic_lab1.cpp:111:17: warning: variable 'parentIndex' set but not used [-Wunused-but-set-variable]
-  pair<int, int> parentIndex = getParent();
-                 ^
-g++ -o ACM.exe "src\\Genetic_lab1.o" 
-
-01:04:10 Build Finished (took 1s.751ms)
-
+Info: Nothing to build for ACM
