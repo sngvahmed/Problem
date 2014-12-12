@@ -11,7 +11,21 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 #define rall(x) x.rbegin(), x.rend()
 #define MMS(x, v) memset(x, v, sizeof(x))
-#define SF(x) scanf("%d" , %x)
+#define SF(x) scanf("%d" , &x)
+
+int a, b, c;
+int tot() {
+	int mx = -1;
+	mx = max(mx, (a + b) * c);
+	mx = max(mx, (b + c) * a);
+	mx = max(mx, a + c + b);
+	mx = max(mx, a * c * b);
+	return mx;
+}
+
 int main() {
-  return 0;
+
+	SF(a), SF(b), SF(c);
+	cout << tot() << endl;
+	return 0;
 }

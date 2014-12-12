@@ -11,7 +11,18 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 #define rall(x) x.rbegin(), x.rend()
 #define MMS(x, v) memset(x, v, sizeof(x))
-#define SF(x) scanf("%d" , %x)
+
 int main() {
-  return 0;
+	int n, d;
+	scanf("%d%d", &n, &d);
+	int arr[n], tot = 0;
+
+	for (int i = 0; i < n; i++)
+		scanf("%d", &arr[i]), tot += arr[i];
+	if ((tot + ((n - 1) * 10)) > d) {
+		cout << -1 << endl;
+		return 0;
+	}
+
+	cout << (d - tot) / 5 << endl;
 }

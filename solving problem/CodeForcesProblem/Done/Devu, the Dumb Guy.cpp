@@ -11,7 +11,25 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 #define rall(x) x.rbegin(), x.rend()
 #define MMS(x, v) memset(x, v, sizeof(x))
-#define SF(x) scanf("%d" , %x)
+
 int main() {
-  return 0;
+
+	int n, m;
+	cin >> n >> m;
+	long long arr[n];
+
+	for (int i = 0; i < n; i++)
+		cin >> arr[i];
+
+	sort(arr, arr + n);
+
+	long long tot = 0;
+
+	for (int i = 0; i < n; i++) {
+		tot += (arr[i] * (max(1, m--)));
+	}
+
+	cout << tot << endl;
+
+	return 0;
 }
